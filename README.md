@@ -17,11 +17,21 @@ Share book to instagram with Notion API and Instagram API
    $ if needed
    alias=python3 -m pip
    ```
-3. Install notion-client, python-dotenv, requests, instagrapi, Pillow
+2. Install notion-client, python-dotenv, requests, instagrapi, Pillow
    ```bash
    $ pip install notion-client
    $ pip install python-dotenv
    $ pip install requests
    $ pip install instagrapi
    $ pip install Pillow
+   ```
+
+3. Update .env.example and Rename .env.example to .env
+   ```python
+   NOTION_API_KEY=
+   NOTION_DATABASE_URL=
+   NOTION_DATABASE_ID=
+
+   INSTAGRAM_USERNAME=
+   INSTAGRAM_PASSWORD=
    ```
