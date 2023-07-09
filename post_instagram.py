@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import os
 
 def login_instagram(username, password):
+    print(username, password)
     api = Client()
     api.login(username, password)
     return api

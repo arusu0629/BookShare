@@ -16,8 +16,7 @@ notion_client = Client(auth=os.environ["NOTION_API_KEY"])
 # Instagramにログイン
 INSTAGRAM_USERNAME = os.environ["INSTAGRAM_USERNAME"]
 INSTAGRAM_PASSWORD = os.environ["INSTAGRAM_PASSWORD"]
-pprint(INSTAGRAM_USERNAME)
-pprint(INSTAGRAM_PASSWORD)
+
 api = login_instagram(INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD)
 
 def mark_as_posted(page_id):
