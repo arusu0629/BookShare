@@ -2,7 +2,7 @@ name: Scheduled Workflow
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # 毎日19時に実行
+    - cron: '*/5 * * * *'  # 毎日19時に実行
 
 jobs:
   build:
